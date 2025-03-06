@@ -1,0 +1,75 @@
+/* Fix the hidden attribute */
+[hidden] {
+  display: none !important;
+}
+
+/* Expand navbar buttons inside burger menu */
+@media screen and (max-width: 1023px) {
+  .navbar-menu.is-active .button {
+    width: 100%;
+  }
+}
+
+/* Centered table cells */
+.table.has-text-centered {
+  --bulma-table-cell-text-align: center;
+  text-align: center;
+}
+
+/* Mobile-sized container */
+.container.is-max-mobile {
+  max-width: 480px !important;
+}
+
+/* Helper to add a border radius */
+.has-radius {
+  border-radius: var(--bulma-radius);
+}
+
+/* Helper to hide an element on print */
+@media print {
+  .is-hidden-print {
+    display: none !important;
+  }
+}
+
+/* Section colors */
+.section.is-light {
+  background-color: hsl(
+    var(--bulma-scheme-h),
+    var(--bulma-scheme-s),
+    var(--bulma-background-l));
+}
+
+.section.is-primary {
+  background-color: hsl(
+    var(--bulma-primary-h),
+    var(--bulma-primary-s),
+    var(--bulma-primary-l));
+  color: hsl(
+    var(--bulma-primary-h),
+    var(--bulma-primary-s),
+    var(--bulma-primary-invert-l));
+}
+
+.section.is-primary .title {
+  --bulma-title-color: hsl(
+    var(--bulma-primary-h),
+    var(--bulma-primary-s),
+    var(--bulma-primary-invert-l));
+  --bulma-title-strong-color: hsl(
+    var(--bulma-primary-h),
+    var(--bulma-primary-s),
+    var(--bulma-primary-invert-l));
+}
+
+.section.is-primary .subtitle {
+  --bulma-subtitle-color: hsl(
+    var(--bulma-primary-h),
+    var(--bulma-primary-s),
+    var(--bulma-primary-invert-l));
+  --bulma-subtitle-strong-color: hsl(
+    var(--bulma-primary-h),
+    var(--bulma-primary-s),
+    var(--bulma-primary-invert-l));
+}
