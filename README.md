@@ -80,4 +80,4 @@ The JavaScript enhancements are automatically initialized when the script is loa
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is licensed under the [MIT license](LICENSE).
