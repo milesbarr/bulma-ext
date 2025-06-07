@@ -75,4 +75,4 @@ A collection of JavaScript enhancements and CSS extensions for the
 
 ## License
 
-This project is licensed under the [MIT license](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
